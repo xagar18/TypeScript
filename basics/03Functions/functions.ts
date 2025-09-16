@@ -54,8 +54,3 @@ function consoleError(error: string):void {
 function handleError(error: string): never { //never return type
   throw new Error(error);
 }
-
-
-
-
-
